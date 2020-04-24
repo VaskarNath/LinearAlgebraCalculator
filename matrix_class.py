@@ -7,6 +7,7 @@ class Matrix:
         pass
 
     def row_reduce(self):
+	print("Hello world :)")
         pass
 
     def __add__(self, matrix):
