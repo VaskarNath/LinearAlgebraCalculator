@@ -1,3 +1,5 @@
+from typing import List
+
 
 class Matrix:
 
@@ -7,5 +9,14 @@ class Matrix:
     def row_reduce(self):
         pass
 
-    def multiply(self, matrix: Matrix):
+    def __add__(self, matrix):
+        pass
+
+    def __mul__(self, matrix):
+        pass
+
+    def __sub__(self, matrix):
+        pass
+
+    def __pow__(self, power, modulo=None):
         pass
